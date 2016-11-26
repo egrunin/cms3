@@ -1,0 +1,12 @@
+USE gc200310426;
+
+CREATE TABLE admins (
+user_id INTEGER AUTO_INCREMENT PRIMARY KEY,
+email VARCHAR(100),
+password CHAR(128)
+);
+
+ALTER TABLE admins
+ADD COLUMN logo VARCHAR(255);
+
+SELECT * FROM admins;

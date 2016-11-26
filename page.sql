@@ -1,0 +1,12 @@
+USE gc200310426;
+
+CREATE TABLE page (
+page_id INT AUTO_INCREMENT PRIMARY KEY,
+page_title VARCHAR(20),
+page_info VARCHAR (500)
+);
+
+ALTER TABLE page
+ADD COLUMN logo VARCHAR(255);
+
+SELECT * FROM page;

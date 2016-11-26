@@ -1,0 +1,64 @@
+/* custom syle sheet */
+html {
+    background: #CCC url("images/background.jpg") no-repeat top left;
+    background-size: cover;	
+    background-attachment: fixed;
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    color: #777;
+    font-family: normal 15px "Century Gothic", Futura, Helvetica, Arial, sans-serif;
+}
+p {
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-weight: bold;
+	color: #444;
+	font-size: 45px;
+	margin-bottom: 20px;
+	text-indent: -9999px;
+	margin-top: 0;
+	width: 250px;
+	height: 40px;
+}
+
+h2 {
+	font-weight: 300;
+	color: #000000;
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px;
+}
+header {
+    background: white;
+    padding: 1% 10%;
+}
+main {
+    position: relative;
+    top: -40px;
+    margin: 200px auto 40px;
+    max-width: 980px;
+    min-height: 500px;
+    max-height: 960px;
+    padding: 20px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: white;
+    border-radius: 0;
+    padding-bottom: 200px;
+}
+footer {
+    margin: 0;
+	padding-bottom: 5px;
+	background-color: white;
+	text-align: center;
+    font-size: 90%;
+    color: black;
+}
